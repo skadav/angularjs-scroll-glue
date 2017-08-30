@@ -123,7 +123,7 @@ if(typeof module === "object" && module.exports){
             return el.scrollTop + el.clientHeight + 1 >= el.scrollHeight;
         },
         scroll: function(el){
-            el.scrollTop = (el.scrollHeight/3);
+            el.scrollTop = 150;
         }
     };
 
